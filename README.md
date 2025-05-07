@@ -4,7 +4,7 @@
 yolov5폴더는 용량이 큰 관계로 아래의 이미지와 같이 프로젝트 파일에 추가하였습니다.   
 ![터미널](https://github.com/jjkkhh123/Object_Detection_yolov5/blob/main/images/terminal.png)   
 #
-저는 main.py만을 수정하여 기능을 구현하였습니다. 추가한 코드만을 다뤄 보자면 아래의 이미지와 같이 yolov5의 경로를 추가해줍니다.
+저는 main.py만을 수정하여 기능을 구현하였습니다. 추가한 코드만을 다뤄 보자면 아래의 이미지와 같이 yolov5의 경로를 추가해줍니다. 그리고 경로의 detect파일의 run을 사용하기위해 준비힌 코드입니다.
 ![경로](https://github.com/jjkkhh123/Object_Detection_yolov5/blob/main/images/code_1.png)
 #
 이후 yolov5모델을 로드하면서 best.pt도 가져와줍니다.
